@@ -32,6 +32,6 @@ I have tried some of the courses such as:
    * [CS50W](https://cs50.harvard.edu/web/2020/)
    * [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science)
    * [Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
-## Englishsde
+## English
 My english isn't fluent but i can speak and hear just about evrything. I have not really had any practise, but with the help of youtube videos, movies, TV Shows, cartoons and stuff like that, i have been able to learn english and increase my vocabulary. 
    
