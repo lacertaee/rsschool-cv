@@ -7,6 +7,9 @@ const controls = Array.from(track.children);
 const menuBtn = document.querySelector(".menu-btn");
 const menuLink = document.querySelector(".mn-link");
 const backToHome = document.querySelector(".back-to-home");
+const coffee = document.querySelector(".coffee-btn");
+const tea = document.querySelector(".tea-btn");
+const dessert = document.querySelector(".dessert-btn");
 
 console.log(controls);
 
@@ -76,5 +79,12 @@ document.addEventListener("DOMContentLoaded", () => {
     menuLink.addEventListener('click', hide);
     menuBtn.addEventListener('click', hide);
     
+    btns = [coffee, dessert, tea];
+    btns.forEach(element => {
+        element.addEventListener('click', () => {
+            document.querySelector('.pressed').classList.remove('pressed');
+            element.classList.add('pressed');
+        })
+    })
     
 })
