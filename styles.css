@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 35px 0 35px 0;
+    background-color: rgb(224, 166, 166);
+} 
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.head a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.head a:hover {
+    color: gray;
+    transition: all 350ms ease;
+}
+
+.fullname {
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: span 2;
+    font-weight: normal;
+}
+
+.dev {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-row: 2 / 4;
+    grid-column: span 2;
+    padding-left: 1em;
+    position: relative;
+    bottom: 20px;
+}
+
+.name div {
+    font-size: 2.2em;
+    padding-left: 0.5em;
+}
+
+.name {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 4em;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.title:hover{
+    background-color: rgb(232, 210, 159);
+    transition: all 350ms ease;
+    padding-left: 30px;
+}
+
+
+.info {
+    font-size: larger;
+    letter-spacing: 0.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutme {
+    padding-top: 2em;
+}
+
+
+#codeexamples code{
+    font-size: 2em;
+    position: relative;
+    left: 80px;
+    top: 60px;
+}
+
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+    transition: all 350ms ease;
+}
+
+.cont {
+    list-style-type: none;
+}
+
+.cont li {
+    height: 70px;
+}
+
+.discord-li {
+    display: flex;
+    font-size: larger;
+    letter-spacing: 0.07em;
+    background: url('https://static.vecteezy.com/system/resources/previews/023/986/880/non_2x/discord-logo-discord-logo-transparent-discord-icon-transparent-free-free-png.png') no-repeat left center;
+    background-size: 60px 60px;
+    line-height: 50px;
+}
+
+.discord-li a {
+    margin-left: 70px;
+}
+
+.fullname:hover {
+    font-style: italic;
+    padding-left: 50px;
+    transition: all 350ms ease;
+}
+
+.fullname:hover::before {
+    content: "→ ";
+}
+
+.gmail-li {
+    display: flex;
+    font-size: larger;
+    letter-spacing: 0.07em;
+    background: url('https://logowik.com/content/uploads/images/gmail-new-icon5198.jpg') no-repeat left center;
+    background-size: 60px 50px;
+    line-height: 50px;
+    white-space-collapse: preserve;
+    margin-top: 15px;
+}
+
+.github-li {
+    margin-left: 8px;
+    display: flex;
+    font-size: larger;
+    letter-spacing: 0.07em;
+    background: url('https://cdn-icons-png.flaticon.com/512/25/25231.png') no-repeat left center;
+    background-size: 45px 45px;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+.github-li a {
+    margin-left: 65px;
+}
+
+footer ul {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.git a img:hover {
+    transform: scale(1.3);
+    transition: all 350ms ease;
+}
+
+
+
+.rs a img:hover {
+    transform: scale(1.3);
+    transition: all 350ms ease;
+}
+
+footer {
+    padding: 7px;
+    background-color: rgb(224, 166, 166);
+    margin-top: 10px;
+}

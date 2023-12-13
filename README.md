@@ -1,1 +1,1 @@
-https://lacertaee.github.io/rsschool-cv/cv 
+https://lacertaee.github.io/rsschool-cv/
