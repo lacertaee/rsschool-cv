@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         void document.querySelector('.show').offsetWidth;
         document.querySelector('.show').style.opacity = '1';
 
+        document.querySelector("title").innerHTML = "Menu";
     }
 
 
