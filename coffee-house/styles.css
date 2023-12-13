@@ -255,13 +255,6 @@ main {
     line-height: 125%;
 }
 
-.photo1 {
-    width: 30rem;
-    height: 30rem;
-    background-size: cover;
-    background-color: #E1D4C9;
-}
-
 .slider button {
     display: flex;
     justify-content: center;
